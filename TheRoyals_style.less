@@ -1,13 +1,15 @@
-/* TheRoyals Css Style */
+/* TheRoyals LESS/Css Style */
+
+@theroyalsUrl: "http://forum.theroyals.it/style/TheRoyals/img";
 
 #theroyals-header {
 	position: relative;
-	background: url(http://forum.theroyals.it/style/TheRoyals/img/main_top.png) top repeat-x;
+	background: url("@{theroyalsUrl}/main_top.png") top repeat-x;
 	background-size: contain;
 }
 
 @media screen and (max-width:300px) {
-	#theroyals-header {
+	#theroyals-phrase {
 		display: none;		
 	}
 }
@@ -26,21 +28,21 @@
 }
 
 #theroyals-title {
-	background: url(http://forum.theroyals.it/style/TheRoyals/img/the_royals.png) no-repeat;
+	background: url("@{theroyalsUrl}/the_royals.png") no-repeat;
 	background-size: contain;
 	padding-bottom: 40%;
 	margin-top: 5%;
 }
 
 #theroyals-phrase {
-	background: url(http://forum.theroyals.it/style/TheRoyals/img/phrase.png) no-repeat;
+	background: url("@{theroyalsUrl}/phrase.png") no-repeat;
 	background-size: contain;
 	padding-bottom: 20%;
 	margin-left: 10%;
 }
 
 #theroyals-motor {
-	background: url(http://forum.theroyals.it/style/TheRoyals/img/motorRE.png) no-repeat;
+	background: url("@{theroyalsUrl}/motorRE.png") no-repeat;
 	background-size: contain;
 	padding-bottom: 80%;
 }
@@ -52,49 +54,19 @@
 	clear: both;
 }
 
-#theroyals-menu {
-	padding: 10px 5px;
-}
-
-#theroyals-menu a {
-	text-decoration: none;
-	font-family: FontleroyBrownRegular;
-	font-size: 2.5em;
-	color: #fff;
-	padding-left: 15px;
-}
-
-#theroyals-user-menu {
-	float: right;
-	margin-right: 15px;
-}
-
-#theroyals-wrap {
-	min-height: 100%;
-}
-
 #theroyals-bottom {
-	margin-top: -150px;
-	height: 150px;
-	width: 100%;
 	position: relative;
+	overflow: auto;
 	background-color: @primary-color;
-	clear: both;
-	color: white;
-	font-family: serif;
+	max-height: 150px;
 }
 
-#theroyals-bottom .block {
-	float: left;
-	margin-right: 3em;
-}
-
-#theroyals-bg {
-	background: url(http://forum.theroyals.it/style/TheRoyals/img/bg_image.png) repeat-x;
-	background-size: 100% 100%;
+#theroyals-bottom img {
+	height: auto;
 	width: 100%;
-	overflow:auto;
-	padding-bottom: 150px;
 }
 
-
+#theroyals-bottom .theroyals-block {
+	display: inline-block;
+	color: #fff;
+}
