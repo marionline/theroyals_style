@@ -1,0 +1,20 @@
+# TODO LIST
+
+1. [ ] User Management module
+2. [ ] Recaptcha module
+3. [ ] User list
+
+1. User Management Module
+=========================
+https://discuss.flarum.org/d/23073-user-management-how/8
+
+2. Recaptcha module
+======================
+Trovato questo ma forse non funziona con la versione 3 di Google, da
+verificare e testare.
+https://github.com/FriendsOfFlarum/recaptcha
+
+3. User list
+============
+Al momento utilizzato questo:
+https://github.com/FriendsOfFlarum/user-directory
