@@ -3,6 +3,7 @@
 1. [ ] User Management module
 2. [ ] Recaptcha module
 3. [ ] User list
+4. [ ] Term of use
 
 1. User Management Module
 =========================
@@ -18,3 +19,22 @@ https://github.com/FriendsOfFlarum/recaptcha
 ============
 Al momento utilizzato questo:
 https://github.com/FriendsOfFlarum/user-directory
+
+4. Term of Use
+==============
+https://discuss.flarum.org/d/11714-fof-terms-ask-your-users-to-accept-tos-and-privacy-policy
+
+
+Other features?
+===============
+Hashtag support: https://discuss.flarum.org/d/20945-hashtags
+Profile covers: https://discuss.flarum.org/d/23437-profile-cover
+Polls: https://discuss.flarum.org/d/20586-friendsofflarum-polls
+Media: https://discuss.flarum.org/d/4154-friendsofflarum-upload-the-intelligent-file-attachment-extension
+PM support: https://discuss.flarum.org/d/4762-friendsofflarum-by-bu-well-integrated-advanced-private-discussions
+User bio: https://discuss.flarum.org/d/17775-friendsofflarum-user-bio
+Follow tags: https://discuss.flarum.org/d/20525-friendsofflarum-follow-tags
+Front post display: https://discuss.flarum.org/d/2151-summaries-showing-excerpts-on-discussions-page
+Emoji support: https://discuss.flarum.org/d/4787-emoji-picker
+Mute feature: https://discuss.flarum.org/d/20681-friendsofflarum-ignore-users
+Auto load more posts: https://discuss.flarum.org/d/11961-auto-more
